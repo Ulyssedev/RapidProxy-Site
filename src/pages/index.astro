@@ -1,0 +1,81 @@
+---
+import '../styles/styles.scss';
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="RapidProxy is a powerful and flexible API that allows you to proxy traffic through servers located around the world." />
+    <meta name="keywords" content="RapidProxy, API, proxy, traffic, servers, world" />
+    <title>RapidProxy</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <nav>
+      <div class="menu">
+        <p class="website_name">RapidProxy</p>
+        <div class="menu_links">
+          <a href="https://rapidapi.com/Ulyssedev/api/RapidProxy/pricing" class="link">pricing</a>
+        </div>
+        <div class="menu_icon">
+          <span class="icon"></span>
+        </div>
+      </div>
+    </nav>
+
+    <section class="wrapper">
+      <div class="container">
+        <div id="scene" class="scene" data-hover-only="false">
+          <div class="circle" data-depth="1.2"></div>
+          <div class="one" data-depth="0.9">
+            <div class="content">
+              <span class="piece"></span>
+              <span class="piece"></span>
+              <span class="piece"></span>
+            </div>
+          </div>
+          <div class="two" data-depth="0.60">
+            <div class="content">
+              <span class="piece"></span>
+              <span class="piece"></span>
+              <span class="piece"></span>
+            </div>
+          </div>
+          <div class="three" data-depth="0.40">
+            <div class="content">
+              <span class="piece"></span>
+              <span class="piece"></span>
+              <span class="piece"></span>
+            </div>
+          </div>
+          <p class="rapidproxy" data-depth="0.50">RapidProxy</p>
+          <p class="rapidproxy" data-depth="0.10">RapidProxy</p>
+        </div>
+
+        <div class="text">
+          <article>
+            <p>RapidProxy is a powerful and flexible API that allows you to proxy traffic through servers located around the world.</p>
+            <a href="https://rapidapi.com/Ulyssedev/api/RapidProxy" target="_blank" rel="noopener">
+              <img src="https://storage.googleapis.com/rapidapi-documentation/connect-on-rapidapi-light.png" width="215" alt="Connect on RapidAPI" />
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+	<script>
+		import Parallax from 'parallax-js'
+		// import Parallax
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+	</script>
+  </body>
+</html>
